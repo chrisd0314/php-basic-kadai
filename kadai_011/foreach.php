@@ -5,8 +5,8 @@
         'productarea' : '北海道'
     ];
 
-    foreach($vegetables as $key => $value){
-        echo $key : $value '<br>';
+    foreach($vegetables as $key : $value){
+        echo $key : $value . '<br>';
     }
 
 ?>
