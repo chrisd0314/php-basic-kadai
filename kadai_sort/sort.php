@@ -12,8 +12,8 @@
         // ソートする配列を宣言
         $nums = [15, 4, 18, 23, 10 ];
 
-        function sort_2way($array,$order){
-            if ($order = true){
+        function sort_2way($nums,true){
+            if ($order === true){
             echo "昇順にソートします。<br>";
             sort($array);
             foreach ($array as $num) {
